@@ -1,0 +1,21 @@
+{
+  "name": "@replace-placeholder/core",
+  "version": "1.0.0",
+  "description": "Core placeholder replacement utility.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
